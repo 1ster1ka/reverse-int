@@ -1,3 +1,4 @@
+function reverse(numder) {
     let arr=(""+numder).split('').map(Number)
     let rev_arr=arr.reverse()
     let new_number=''
@@ -5,3 +6,4 @@
         new_number+=rev_arr[i]
     }
     return new_number
+    }
